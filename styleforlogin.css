@@ -29,3 +29,13 @@ p {
     line-height: 30px;
     text-align: center;
 }
+
+form {
+    width: 50%; 
+    margin: 30px auto auto;
+    background-color: #50327e;
+    opacity: 0.65;
+    border-radius: 13px;
+    padding: 30px;
+    box-sizing: border-box;
+} 
