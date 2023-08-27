@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styleforlogin.css">
 </head>
 <body>
-    <h1>Школа программирования "Салам"</h1>
+    <h1>Школа программирования "Kodama"</h1>
     <hr>
     <p>Здравствуйте! Мы очень рады, что <i>Вы</i> решили присоединиться к нам! <br> Пожалуйста, заполните форму регистрации ниже</p>
     <form action="#">
@@ -18,6 +18,32 @@
         <div class="fields">
             <p>Придумайте логин</p>
             <input type="text" placeholder="Придумайте логин">
+            <p>Придумайте пароль</p>
+            <input type="password" placeholder="Придумайте пароль">
+            <p>Выберите пол</p>
+            <div class="wrapper">
+                <input type="radio" name="pol">
+                <p>Мужской</p>
+                <input type="radio" name="pol">
+                <p>Женский</p>
+            </div>
+            <p>Выберите желаемые курсы</p>
+            <div class="wrapper">
+                <input type="checkbox">
+                <p>Frontend</p>
+                <input type="checkbox">
+                <p>Roblox</p>
+                <input type="checkbox">
+                <p>Figma</p>
+                <input type="checkbox">
+                <p>Scratch</p>
+                <input type="checkbox">
+                <p>Python</p>
+                <input type="checkbox">
+                <p>Unity</p>
+            </div>
+            <p>Расскажите немного об ученике, о его достижениях и мечтах</p>
+            <textarea placeholder="Расскажите об ученике" rows="5" cols="50" class="aboutChild"></textarea>
         </div>
        
     </form>

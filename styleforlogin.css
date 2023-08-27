@@ -1,5 +1,5 @@
 body {
-    background-image: url(images/kaban.jpg);
+    background-image: url(images/kodamik.png);
     background-size: 20%;
     background-repeat: no-repeat;
     background-position: top right;
@@ -75,4 +75,28 @@ form {
     text-align: center;
     opacity: 0.9;
     box-sizing: border-box;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.wrapper p {
+    display: inline;
+    padding: 5px;
+}
+
+.wrapper input {
+    width: auto;
+}
+
+.aboutChild {
+    width: 90%;
+    margin-left: 5%;
+    padding: 10px 5px;
+    border-radius: 15px;
+    background-color: #60428e;
+    text-align: center;
+    opacity: 0.9;
+    border: none;
 }
